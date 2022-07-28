@@ -1,0 +1,422 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 1440px;
+  margin: auto;
+  font-family: 'Roboto';
+}
+.header{
+  width: 1440px;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-list{
+  width: 977px;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn{
+  background: #43806C;
+  border-radius: 6px;
+  color: #fff;
+  border: none;
+}
+.nav-btn{
+  padding: 10px 14px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+.nav-item{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #214E41;
+}
+.option{
+  padding: 10px 14px;
+  border: none;
+  color:#214E41;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  outline: none;
+}
+.hero{
+  width: 1440px;
+  height: 720px;
+  background-image: url('../img/hero.png');
+}
+.hero-text{
+  padding: 161px 0 0 120px;
+}
+.hero-head{
+  width: 516px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #214E41;
+}
+.hero-para{
+  width: 128px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #214E41;
+  margin: 40px 0 16px 0;
+}
+.hero-input{
+  padding: 20px 88px 20px 20px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  outline: none;
+  background: #FFFFFF;
+  border-radius: 6px 0px 0px 6px;
+  border: none;
+}
+.hero-btn{
+  border-radius: 0px 6px 6px 0px;
+  margin-left:-4px ;
+  padding: 20px 35px;
+  outline: none;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+}
+.card{
+  margin: -95px auto 100px auto;
+  width: 1200px;
+  height: 171px;
+  background-color: #fff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.card-item{
+  width: 356px;
+  height: 71px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-para{
+  width: 275px;
+}
+.insurance{
+  margin: auto;
+  width:1200px;
+  height: 432px;
+  display: flex;
+  justify-content: space-around;
+}
+.insurance-line{
+  position: absolute;
+  top: 275px;
+  left: -10px;
+  width: 510px;
+  height: 2px;
+  background: #F0A446;
+  border: #F0A446;
+}
+.insurance-text{
+  width: 520px;
+  height: 358px;
+}
+.insurance-subtitle{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: #43806C;
+}
+.insurance-title{
+  width: 478px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #214E41;
+}
+
+.insurance-para{
+  margin: 34px 0 26px 0  ;
+  width: 477px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02px;
+  color: #757575;
+}
+.link-div{
+  width: 107px;
+  height: 36px;
+  text-align: center;
+}
+.main-link{
+  width: 90px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.02px;
+  color: #214E41;
+}
+.insurance-photo{
+  position: relative;
+  display: flex;
+  width: 510px;
+  height: 432px;
+  align-items: center;
+}
+.link-line{
+  width: 107px;
+  height: 2px;
+  background: #214E41;
+}
+.photo-flex{
+  width: 235px;
+  height: 365px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.percent{
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  color: #214E41;
+}
+.percent-text{
+  margin-top: 100px;
+  width: 230px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.02px;
+  color: #214E41;
+}
+.numbers{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  text-align: center;
+  color: #214E41;
+}
+.averages{
+  margin-right: 70px;
+  text-align: right;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  color: #757575;
+}
+.number-txt{
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 22px;
+  text-align: center;
+  color: #214E41;
+}
+.benefits{
+  margin: 120px 0;
+  width: 1440px;
+  height: 640px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background: linear-gradient(90deg, #E3EEED 705px, #214E41 705px, #214E41 1440px );
+}
+.brela{
+  margin-top: 120px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: #214E41;
+}
+.brela-info{
+  width: 490px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  letter-spacing: 0.02px;
+  color: #FFFFFF;
+  margin-bottom: 34px;
+}
+.benefit-title{
+  margin: 29px 0 18px 0;
+  width: 345px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #214E41;
+}
+
+.benefit-para{
+  margin-bottom: 18px;
+  width: 385px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  color: #43806C;
+}
+.text{
+  margin-top: 160px;
+}
+.health{
+  width: 1400px;
+  height: 490px;
+}
+.health-txt{
+  margin: auto;
+  width: 1200px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.health-subtitle{
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: #43806C;
+}
+.health-title{
+  margin: 20px 0 34px 0;
+  width: 556px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #214E41;
+}
+.health-para{
+  width: 550px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02px;
+  color: #757575;
+}
+.health-info{
+  margin: auto;
+  width: 1200px;
+  height: 132px;
+  display: flex;
+  justify-content: space-between;
+}
+.info-list{
+  width: 262px;
+  height: 132px;
+}
+.info-nums{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #F0A446;
+}
+.info-para{
+  width: 235px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.02px;
+  color: #214E41;
+}
+.claims{
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.claims-subtitle{
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: #43806C;
+}
+.claims-title{
+  margin: 20px 0 34px 0;
+  width: 483px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #214E41;
+}
+.claims-para{
+  margin-bottom: 26px;
+  width: 545px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02px;
+  color: #757575;
+}
+.enrollment{
+  width: 1440px;
+  height: 522px;
+  background-image: url('../img/adminisrtation.png');
+}
+.enrollment-txt{
+  padding-top: 125px;
+  margin-left: 120px;
+}
+.enroll-subtitle{
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: #43806C;
+}
+.enroll-title{
+  margin: 20px 0 34px 0;
+  width: 391px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #214E41;
+}
+.enroll-para{
+  margin-bottom: 26px;
+  width: 491px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02px;
+  color: #757575;
+}
+
+
+
+
+
+
